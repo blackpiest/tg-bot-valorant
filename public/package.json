@@ -1,0 +1,13 @@
+{
+  "name": "tgbot-valorant",
+  "version": "1.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:build": "pm2 restart ecosystem.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
